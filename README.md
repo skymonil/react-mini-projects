@@ -1,8 +1,44 @@
-# React + Vite
+# MovieLand - Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieLand is a React-based web application that allows users to search for movies and display information about them using the OMDB API.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Components](#components)
+- [API](#api)
+- [License](#license)
+
+## Introduction
+
+MovieLand is a simple and user-friendly movie search application. Users can search for movies by typing in the search bar and pressing the "Enter" key or clicking the search icon. The application fetches movie data from the OMDB API and displays the results.
+
+## Features
+
+- Search for movies by title
+- Display movie details including title, year, type, and poster
+- Handle no results found scenarios gracefully
+- Responsive design
+
+## Getting Started
+
+Follow these instructions to set up and run the project locally.
+
+### Prerequisites
+
+- Node.js and npm installed on your machine
+- OMDB API key (You can obtain one from [OMDB API](http://www.omdbapi.com/apikey.aspx))
+
+### Installation
+
+1. Clone the repository:
+   
+   git clone https://github.com/your/movieland.git
+   cd movieland
+   npm i
+   npm run dev
